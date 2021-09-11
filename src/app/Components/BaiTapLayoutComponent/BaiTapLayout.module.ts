@@ -4,7 +4,7 @@ import { BaiTapLayoutComponent } from './BaiTapLayout.component';
 import { BTContentComponent } from './BTContent.component';
 import { BTFooterComponent } from './BTFooter.component';
 import { BTHeaderComponent } from './BTHeader.component';
-import { BTSideBarComponent } from './BTSideBar.cmonent';
+import { BTSideBarComponent } from './BTSideBar.component';
 
 @NgModule({
   declarations: [

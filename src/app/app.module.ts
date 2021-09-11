@@ -9,6 +9,8 @@ import { DataBindingModule } from './DataBindingModule/DataBinding.module';
 import { DirectiveModule } from './DirectiveModule/Directive.module';
 import { PropsModule } from './PropsModule/Props.module';
 
+import { RegisterFormModule } from './RegisterFormExercise/RegisterForm.module';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -19,7 +21,8 @@ import { PropsModule } from './PropsModule/Props.module';
     BaiTapLayoutModule,
     DataBindingModule,
     DirectiveModule,
-    PropsModule, //Nơi import các module khác của ứng dụng
+    PropsModule,
+    RegisterFormModule, //Nơi import các module khác của ứng dụng
   ],
   providers: [], //Nơi khai báo các service
   bootstrap: [AppComponent], // Nơi khai báo các chạy tren index Component <app-root></app-root> được chạy trên index
