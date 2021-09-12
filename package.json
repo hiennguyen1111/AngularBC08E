@@ -1,5 +1,5 @@
 {
-  "name": "angularbc08estudy",
+  "name": "angularbc08e",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -11,14 +11,21 @@
   "private": true,
   "dependencies": {
     "@angular/animations": "~12.2.0",
+    "@angular/cdk": "^12.2.5",
     "@angular/common": "~12.2.0",
     "@angular/compiler": "~12.2.0",
     "@angular/core": "~12.2.0",
     "@angular/forms": "~12.2.0",
+    "@angular/material": "^12.2.5",
     "@angular/platform-browser": "~12.2.0",
     "@angular/platform-browser-dynamic": "~12.2.0",
     "@angular/router": "~12.2.0",
+    "bootstrap": "^4.6.0",
+    "jquery": "^3.6.0",
+    "ng-zorro-antd": "^12.0.1",
+    "popper.js": "^1.16.1",
     "rxjs": "~6.6.0",
+    "sass": "^1.39.2",
     "tslib": "^2.3.0",
     "zone.js": "~0.11.4"
   },
