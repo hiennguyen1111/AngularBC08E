@@ -8,7 +8,7 @@ import { NzLayoutModule } from 'ng-zorro-antd/layout';
 import { NzSpaceModule } from 'ng-zorro-antd/space';
 import { NzRateModule } from 'ng-zorro-antd/rate';
 import { NzTableModule } from 'ng-zorro-antd/table';
-
+import { NzBreadCrumbModule } from 'ng-zorro-antd/breadcrumb'
 
 @NgModule({
   imports: [
@@ -23,6 +23,8 @@ import { NzTableModule } from 'ng-zorro-antd/table';
     NzSpaceModule,
     NzRateModule,
     NzTableModule,
+    NzBreadCrumbModule,
+
   ],
   exports: [
     NzButtonModule,
@@ -36,6 +38,8 @@ import { NzTableModule } from 'ng-zorro-antd/table';
     NzSpaceModule,
     NzRateModule,
     NzTableModule,
+    NzBreadCrumbModule,
+    
   ],
 })
 export class AntModule {}
